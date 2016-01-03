@@ -92,3 +92,36 @@ h1, h2, h3, h4, h5, h6{
 	.content-main h1 a{
 		color:#dbdada
 	}
+.footer-wrapper{
+	background:#080808; border-bottom:4px solid #151515;
+}
+	.footer-main{
+		width:960px; margin:0 auto; padding:13px 0 6px 0;
+	}
+	.footer-main:after{
+		content:"";
+		clear:both;
+		display:block;
+	}
+	.footer-left{
+		float:left;
+	}
+		.footer-left img{
+			float:left;
+		}
+		.footer-left p{
+			float:left; color:#fefcfc; font-size:14px; padding:14px 0 0 7px;
+		}
+		.footer-left p a{
+			color:#fefcfc;
+		}
+	.footer-right{
+		float:right;
+	}
+	.footer-right img{
+		margin:0 4px;
+	}
+	.footer-right a:last-child{
+		margin-right: 23px;
+	}
+	
