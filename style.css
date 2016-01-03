@@ -25,6 +25,9 @@ a{
 a:hover{
 	text-decoration:underline;
 }
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
 .karkas{
 	width:960px; margin:0 auto;
 }
@@ -54,3 +57,38 @@ a:hover{
 			a.active{
 				background:#232323; border-radius:5px 5px 0 0;
 			}
+	.content-main-bocks:after{
+		content:"";
+		clear:both;
+		display:block;
+	}
+	.content-main-bocks div{
+		float:left; width:277px; margin: 0 21px;
+		
+	}
+		.read-more{
+			color:#000000!important; padding:1px 7px 3px 7px; background:#444444; font-weight:bold;
+		}
+	.content-main{
+		color:#565656; font-size:13px;
+	}
+	.content-main img{
+		border:2px solid #151515; margin-bottom:20px; display:block;
+	}
+	.content-main:after{
+		content:"";
+		clear:both;
+		display:both;
+	}
+	.content-main a{
+		color:#777777;
+	}
+	.content-main p{
+		margin-bottom:20px;
+	}
+	.content-main h1{
+		color:#dbdada; font-size:17px; border-bottom:1px solid #dbdada; margin-bottom:20px; padding-bottom:5px;
+	}
+	.content-main h1 a{
+		color:#dbdada
+	}

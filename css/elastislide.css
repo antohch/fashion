@@ -30,7 +30,7 @@
 .elastislide-horizontal {
 	padding: 30px 60px;
 	margin-bottom:30px;
-	margin-top: -40px;
+	margin-top: 0;
 }
 
 .elastislide-vertical {
@@ -68,6 +68,7 @@
 .elastislide-horizontal ul li {
 	height: 100%;
 	display: inline-block;
+	text-align: center;
 }
 
 .elastislide-vertical ul li {
@@ -80,17 +81,18 @@
 }
 
 .elastislide-carousel ul li a img {
-	display: block;
+	/* display: block; */
 	max-width: 100%;
 	margin:0 auto;
 	border:none;
+	vertical-align: middle;
 }
 
 /* Navigation Arrows */
 
 .elastislide-wrapper nav span {
 	position: absolute;
-	background:url(../images/nav.jpg) no-repeat 0 0 ;
+	background:url(../images/nav.png) no-repeat 0 0 ;
 	width: 38px;
 	height: 38px;
 	text-indent: -9000px;
