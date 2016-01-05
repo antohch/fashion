@@ -180,3 +180,18 @@ h1, h2, h3, h4, h5, h6{
 	textarea:focus{
 		border:1px solid #484848!important; outline: none;
 	}
+	.contact-address, .contact-phone, .contact-mail, .contact-liciense{
+		padding:0 0 0 30px;
+	}
+	.contact-address{
+		background:url(images/ex-home.png) 0 50% no-repeat;
+	}
+	.contact-phone{
+		background:url(images/tel.png) 0 50% no-repeat;
+	}
+	.contact-mail{
+		background:url(images/mail.png) 0 50% no-repeat;
+	}
+	.contact-liciense{
+		background:url(images/reg.png) 0 50% no-repeat;
+	}
