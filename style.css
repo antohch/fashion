@@ -9,9 +9,9 @@ body{
 	height:100%;
 	min-height:100%;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151515+0,151515+100&0+48,1+65,1+100 */
-	background: -moz-linear-gradient(top, rgba(21,21,21,0) 0%, rgba(21,21,21,0) 730px, rgba(21,21,21,1) 830px, rgba(21,21,21,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(21,21,21,0) 0%,rgba(21,21,21,0) 730px,rgba(21,21,21,1) 830px,rgba(21,21,21,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(21,21,21,0) 0%,rgba(21,21,21,0) 730px,rgba(21,21,21,1) 830px,rgba(21,21,21,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top, rgba(21,21,21,0) 0%, rgba(21,21,21,0) 670px, rgba(21,21,21,1) 830px, rgba(21,21,21,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(21,21,21,0) 0%,rgba(21,21,21,0) 670px,rgba(21,21,21,1) 830px,rgba(21,21,21,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(21,21,21,0) 0%,rgba(21,21,21,0) 670px,rgba(21,21,21,1) 830px,rgba(21,21,21,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00151515', endColorstr='#151515',GradientType=0 ); /* IE6-9 */
 	font-family:Arial, Helvetica, sans-serif;
 	line-height:1.5;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6{
 		margin: 190px 0 0 20px;
 	}
 	.menu{
-		margin: 230px 0 0 0; list-style:none; background:rgba(0,0,0,0.6);
+		margin: 230px 0 0 0; list-style:none; background:rgba(0,0,0,0.6); padding-top: 11px;
 	}
 	.menu:after{
 		content:"";
@@ -125,3 +125,58 @@ h1, h2, h3, h4, h5, h6{
 		margin-right: 23px;
 	}
 	
+/* Exibition page*/
+.ex-place, .ex-date, .ex-ticket{
+	padding: 0 0 0 35px;
+}
+.ex-place{
+	background:url(images/ex-home.png) no-repeat left 50%;
+}
+.ex-date{
+	background:url(images/ex-date.png) no-repeat left 50%;
+}
+.ex-ticket{
+	background:url(images/ex-ticket.png) no-repeat left 50%;
+}
+.menu-ex{
+	margin: 230px 0 67px 0;
+}
+
+/* About me page*/
+.content-main:after{
+	content:"";
+	clear:both;
+	display:block;
+}
+.content-left{
+	float:left; width:607px; padding: 0 20px 0 10px;
+}
+.sidebar{
+	float:right; width:283px; margin-right:21px;
+}
+.img-left{
+	float:left; margin: 0 20px 0 0 !important;
+}
+
+/* contact page*/
+.contact-form{
+	
+}
+	.contact-form p{
+		font-size:17px; color:#565656;
+	}
+	.contact-form label{
+		width:150px; display:block; float:left;
+	}
+	.contact-form input[type=text]{
+		width:300px; padding:6px 20px; background:rgba(0,0,0,0.6); border:1px solid rgba(0,0,0,0.6); color:#fff; font-size:17px; border-radius:10px;
+	}
+	.contact-form textarea{
+		width:410px; height:150px; padding:6px 20px; background:rgba(0,0,0,0.6); border:1px solid rgba(0,0,0,0.6); color:#fff; font-size:17px; border-radius:10px; resize:none;
+	}
+	input:focus{
+		border:1px solid #484848!important; outline: none;
+	}
+	textarea:focus{
+		border:1px solid #484848!important; outline: none;
+	}
